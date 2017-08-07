@@ -16,7 +16,7 @@ class App extends Component {
         <div className="App">
           <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h2>Partners In Wine...</h2>
+            <h2>Partners In Wine....</h2>
             <h3><NavLink to='/'>Home</NavLink></h3>
           </div>
           <Route exact path='/' component={Home} />
