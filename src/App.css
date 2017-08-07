@@ -46,3 +46,17 @@ a:hover {
   max-width: 100%;
   border-radius: 5px;
 }
+
+.navBar li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.navBar {
+  padding: 0;
+}
+
+.signUp {
+  width: 500px;
+  margin: 0 auto;
+}
