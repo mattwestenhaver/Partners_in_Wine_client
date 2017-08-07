@@ -9,9 +9,10 @@
 
 .App-header {
   background-color: #222;
-  height: 170px;
+  height: 210px;
   padding: 20px;
   color: white;
+  margin-bottom: 5px;
 }
 
 .App-intro {
@@ -25,4 +26,23 @@
 
 a {
   color: dodgerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cheeseWrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cheeseBox {
+  height: 290px;
+}
+
+.cheeseBox img {
+  max-width: 100%;
+  border-radius: 5px;
 }

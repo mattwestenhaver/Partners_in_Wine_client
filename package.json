@@ -8,7 +8,10 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "semantic-ui": "^2.2.13",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.71.3"
   },
   "scripts": {
     "start": "react-scripts start",
