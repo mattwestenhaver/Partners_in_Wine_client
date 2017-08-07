@@ -1,17 +1,34 @@
 import React from 'react'
+import { Grid, Segment } from 'semantic-ui-react'
 
 const Hard = (props) => {
   return (
-    <div>
-      <ul>
-        <li>Gouda</li>
-        <li>Cheddar</li>
-        <li>Parmesan</li>
-        <li>Double Gloucester</li>
-        <li>Pecorino</li>
-        <li>Gruyere</li>
-        <li>Fontina</li>
-      </ul>
+    <div className='cheeseWrapper'>
+      <Grid columns='equal'>
+        <Grid.Column>
+          <Segment>Gouda</Segment>
+        </Grid.Column>
+        <Grid.Column>
+          <Segment>Cheddar</Segment>
+        </Grid.Column>
+        <Grid.Column>
+          <Segment>Parmesan</Segment>
+        </Grid.Column>
+        <Grid.Column>
+          <Segment>Double Gloucester</Segment>
+        </Grid.Column>
+      </Grid>
+      <Grid columns='equal'>
+        <Grid.Column width={4}>
+          <Segment>Pecorino</Segment>
+        </Grid.Column>
+        <Grid.Column width={4}>
+          <Segment>Gruyere</Segment>
+        </Grid.Column>
+        <Grid.Column width={4}>
+          <Segment>Fontina</Segment>
+        </Grid.Column>
+      </Grid>
     </div>
   )
 }
