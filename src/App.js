@@ -13,6 +13,7 @@ import Bloomy from './components/Bloomy.js'
 import MenuBar from './components/MenuBar.js'
 import SignUp from './components/SignUp.js'
 import LogIn from './components/LogIn.js'
+import LogOut from './components/LogOut.js'
 
 class App extends Component {
 
@@ -24,6 +25,11 @@ class App extends Component {
     this.setState({
       currentUser: auth.getCurrentUser()
     })
+  }
+
+  logOut() {
+    auth.clearToken()
+    this.setState({currentUser: null})
   }
 
   render() {
@@ -49,6 +55,9 @@ class App extends Component {
           <Route path='/login' render={() => (
             <LogIn onLogIn={this.setCurrentUser.bind(this)} />
           )}/>
+          <Route path='/logout' render={() => (
+            <LogOut onLogOut={this.logOut.bind(this)} />
+          )} />
         </div>
       </Router>
     );
