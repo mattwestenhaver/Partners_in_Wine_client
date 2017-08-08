@@ -33,6 +33,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.cheeseTitle {
+  margin-bottom: 27px;
+}
+
+h5 {
+  margin-bottom: 3px;
+}
+
 .cheeseWrapper {
   padding-left: 20px;
   padding-right: 20px;
