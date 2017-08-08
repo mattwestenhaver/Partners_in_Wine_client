@@ -4,7 +4,7 @@ import { Grid, Segment } from 'semantic-ui-react'
 import bloomy from '../images/bloomycheese.jpg'
 import hard from '../images/hardcheese.jpg'
 import blue from '../images/bluecheese.jpg'
-import fresh from '../images/freshcheese.jpg'
+import fresh from '../images/fresh_v2.jpg'
 
 const Home = (props) => {
   return (
