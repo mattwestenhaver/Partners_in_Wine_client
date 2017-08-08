@@ -32,7 +32,7 @@ class LogIn extends React.Component {
             <Form.Field>
               <input ref="password" type="password" placeholder='Password' />
             </Form.Field>
-            <Button type='submit'>Log In</Button>
+            <Button color='violet' type='submit'>Log In</Button>
           </Form>
       </div>
     )

@@ -39,7 +39,7 @@ class SignUp extends React.Component {
           <Form.Field>
             <Checkbox label='I pledge allegiance to these cheeses' />
           </Form.Field>
-          <Button type='submit'>Create Account</Button>
+          <Button color='violet' type='submit'>Create Account</Button>
         </Form>
       </div>
     )
