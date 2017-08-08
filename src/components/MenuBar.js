@@ -16,9 +16,12 @@ class MenuBar extends React.Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted className='menuBar'>
+      <Menu className='menuBar'>
+        <Menu.Item name='piw' as={Link} to='/' active={activeItem === 'piw'} onClick={this.handleItemClick}>
+          Partners In Wine
+        </Menu.Item>
         <Menu.Item name='home' as={Link} to='/' active={activeItem === 'home'} onClick={this.handleItemClick}>
-          Home
+          <span className='cheesePic'>🧀</span>
         </Menu.Item>
         <Menu.Menu position='right'>
           <Menu.Item name='login' as={Link} to='/login' active={activeItem === 'login'} onClick={this.handleItemClick}>
