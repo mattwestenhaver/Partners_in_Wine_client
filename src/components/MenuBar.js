@@ -18,6 +18,7 @@ class MenuBar extends React.Component {
 
   render() {
     const { activeItem } = this.state
+    const currentUser = this.props.currentUser
 
     return (
       <Menu className='menuBar'>
@@ -27,11 +28,11 @@ class MenuBar extends React.Component {
         <Menu.Item name='home' as={Link} to='/' active={activeItem === 'home'} onClick={this.handleItemClick}>
           <span className='cheesePic'>🧀</span>
         </Menu.Item>
-        {this.state.currentUser
+        {currentUser
         ? (
           <Menu.Menu position='right'>
             <Menu.Item name='user' active={activeItem === 'user'} onClick={this.handleItemClick}>
-              {this.state.currentUser ? this.state.currentUser.name : null}
+              {currentUser ? currentUser.name : null}
             </Menu.Item>
             <Menu.Item name='logout' as={Link} to='/logout' active={activeItem === 'logout'} onClick={this.handleItemClick}>
               Log Out
