@@ -5,7 +5,7 @@ class AuthClient {
 
   constructor() {
     this.request = axios.create({
-      baseURL: 'http://localhost:3001',
+      baseURL: 'https://ancient-sierra-55559.herokuapp.com/',
       headers: {
         common: {
           token: this.getToken()
