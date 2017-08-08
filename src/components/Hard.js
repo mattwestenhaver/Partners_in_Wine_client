@@ -54,7 +54,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Double Gloucester</h3>
                 <img src={double_gloucester} alt='Double Gloucester' />
-                <p>A traditional, semi-hard cheese which has been made in Gloucestershire, England, since the 16th century, at one time made only with the milk of the once nearly extinct Gloucester cattle. Double Gloucester is allowed to age for longer periods than Single, and it has a stronger and more savoury flavour.</p>
+                <p>A traditional cheese made in Gloucestershire, England, since the 16th century, at one time made only with the milk of the once nearly extinct Gloucester cattle. It is allowed to age for longer periods than Single, and has a stronger and more savoury flavour.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Zinfandel </NavLink>
               </div>
@@ -89,7 +89,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Fontina</h3>
                 <img src={fontina} alt='Fontina' />
-                <p>An Italian cow's milk cheese. Although made throughout the year, the best cheese is obtained during the summer when the cows are moved to an altitude of 550-700 meters and fed only with rich grass to give it a distinctive aroma. It is noted for its earthy, mushroomy, and woody taste, and pairs exceptionally well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
+                <p>An Italian cow's milk cheese. The best cheese is obtained during the summer when the cows are moved to high altitudes and fed only with rich grass to give it a distinctive aroma. It is noted for its earthy, mushroomy, and woody taste, and pairs exceptionally well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Bardolino </NavLink>
               </div>
