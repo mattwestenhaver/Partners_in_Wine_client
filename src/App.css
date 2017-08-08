@@ -47,7 +47,7 @@ h5 {
 }
 
 .cheeseBox {
-  height: 290px;
+  min-height: 350px;
 }
 
 .cheeseBox img {
