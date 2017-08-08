@@ -69,7 +69,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Pecorino</h3>
                 <img src={pecorino} alt='Pecorino' />
-                <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but still crumbly in texture and have decidedly buttery and nutty flavours. The other two types semi-stagionato and fresco have a softer texture and milder cream and milk tastes.</p>
+                <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but crumbly in texture and have buttery and nutty flavours. The other two types have a softer texture and milder cream and milk tastes.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Valpolicella </NavLink>
               </div>
