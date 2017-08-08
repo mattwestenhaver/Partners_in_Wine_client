@@ -9,6 +9,7 @@ import Fresh from './components/Fresh.js'
 import Hard from './components/Hard.js'
 import Blue from './components/Blue.js'
 import Bloomy from './components/Bloomy.js'
+import Wine from './components/Wine.js'
 
 import MenuBar from './components/MenuBar.js'
 import SignUp from './components/SignUp.js'
@@ -51,6 +52,7 @@ class App extends Component {
           <Route path='/hard' component={Hard} />
           <Route path='/blue' component={Blue} />
           <Route path='/bloomy' component={Bloomy} />
+          <Route path='/wine' component={Wine} />
           <Route path='/signup' component={SignUp} />
           <Route path='/login' render={() => (
             <LogIn onLogIn={this.setCurrentUser.bind(this)} />

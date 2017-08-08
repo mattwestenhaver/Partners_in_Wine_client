@@ -20,7 +20,8 @@ const Home = (props) => {
               <h2><NavLink to='/bloomy'>Bloomy</NavLink></h2>
               <img src={bloomy} alt='Bloomy Cheese' />
               <p>Creamy, decadent cheeses, with a soft rind.</p>
-              <p>Bloomy cheeses love crisp whites, dry rosés, sparkling wines, and light-bodied reds with low tannins. Avoid big, tannic red wines like Malbec, Cabernet Sauvignon, and Bordeaux.</p>
+              <h4> Pairing Notes:</h4>
+              <p>Bloomy cheeses love crisp whites, dry rosés, sparkling wines, and light-bodied reds with low tannins. Wines with apple, berry, stone fruit, tropical, melon, or citrus flavors work best. </p>
             </div>
           </Segment>
         </Grid.Column>
@@ -53,7 +54,7 @@ const Home = (props) => {
               <img src={fresh} alt='Fresh Cheese' />
               <p>Soft, often spreadable cheeses that can be tangy or mild. They are not usually aged.</p>
               <h4> Pairing Notes:</h4>
-              <p>Fresh and soft cheeses love crisp whites, dry rosés, sparkling wines, and light-bodied reds with low tannins. Avoid big, tannic red wines like Malbec, Cabernet Sauvignon, and Bordeaux.</p>
+              <p>Fresh cheeses compliment light bodied reds, crisp whites, and sparkling wines. Avoid big, tannic red wines like Malbec, Cabernet Sauvignon, and Bordeaux.</p>
             </div>
           </Segment>
         </Grid.Column>
