@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom'
 
 class MenuBar extends React.Component {
 
-  state = {
-    activeItem: 'home'
+  constructor(props) {
+    super(props)
+    this.state = {
+      activeItem: 'home',
+      currentUser: props.currentUser
+    }
   }
 
   handleItemClick = (e, { name }) => this.setState({
@@ -23,17 +27,29 @@ class MenuBar extends React.Component {
         <Menu.Item name='home' as={Link} to='/' active={activeItem === 'home'} onClick={this.handleItemClick}>
           <span className='cheesePic'>🧀</span>
         </Menu.Item>
-        <Menu.Menu position='right'>
-          <Menu.Item name='login' as={Link} to='/login' active={activeItem === 'login'} onClick={this.handleItemClick}>
-            Log In
-          </Menu.Item>
-          <Menu.Item name='logout' as={Link} to='/logout' active={activeItem === 'logout'} onClick={this.handleItemClick}>
-            Log Out
-          </Menu.Item>
-          <Menu.Item name='signup' as={Link} to='/signup' active={activeItem === 'signup'} onClick={this.handleItemClick}>
-            Sign Up
-          </Menu.Item>
-        </Menu.Menu>
+        {this.state.currentUser
+        ? (
+          <Menu.Menu position='right'>
+            <Menu.Item name='user' active={activeItem === 'user'} onClick={this.handleItemClick}>
+              {this.state.currentUser ? this.state.currentUser.name : null}
+            </Menu.Item>
+            <Menu.Item name='logout' as={Link} to='/logout' active={activeItem === 'logout'} onClick={this.handleItemClick}>
+              Log Out
+            </Menu.Item>
+          </Menu.Menu>
+        )
+        : (
+          <Menu.Menu position='right'>
+            <Menu.Item name='login' as={Link} to='/login' active={activeItem === 'login'} onClick={this.handleItemClick}>
+              Log In
+            </Menu.Item>
+            <Menu.Item name='signup' as={Link} to='/signup' active={activeItem === 'signup'} onClick={this.handleItemClick}>
+              Sign Up
+            </Menu.Item>
+          </Menu.Menu>
+        )
+      }
+
       </Menu>
     )
   }

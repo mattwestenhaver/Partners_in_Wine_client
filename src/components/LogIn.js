@@ -1,6 +1,7 @@
 import React from 'react'
 import auth from '../auth'
 import { Button, Form } from 'semantic-ui-react'
+import { Redirect } from 'react-router-dom'
 
 class LogIn extends React.Component {
 
