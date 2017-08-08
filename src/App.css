@@ -71,3 +71,8 @@ a:hover {
   margin-bottom: 0!important;
   border-radius: 0!important;
 }
+
+.cheesePic {
+  font-size: 30px;
+  line-height: 12px;
+}
