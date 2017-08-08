@@ -43,10 +43,6 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h2>Partners In Wine...</h2>
           </div>
-          {currentUser
-            ? <p>welcome, {currentUser.name}!</p>
-            : <p>log in or sign up!</p>
-          }
           <Route exact path='/' component={Home} />
           <Route path='/fresh' component={Fresh} />
           <Route path='/hard' component={Hard} />
