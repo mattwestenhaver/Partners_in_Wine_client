@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Segment } from 'semantic-ui-react'
+import { Grid, Segment, Button, Form } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 
 class Wine extends React.Component {
@@ -11,7 +11,22 @@ class Wine extends React.Component {
     }
   }
 
+  handleFormSubmit(evt) {
+    evt.preventDefault()
+    const formData = {
+      zipcode: this.refs.zipcode.value,
+      price: this.refs.price.value,
+      varietal: this.refs.varietal.value
+    }
+    console.log(formData)
+  }
+
   render(){
+    const
+      currentUser = this.props.currentUser,
+      varietal = this.props.varietal
+
+
     return (
       <div>
       <h1> This is the Wine Page</h1>
@@ -27,10 +42,19 @@ class Wine extends React.Component {
             <Grid.Column width={4}>
               <Segment>
                 <div className='cheeseBox'>
-                  <h3> Menu Page </h3>
-                  <p>Here's the menu of all the clients</p>
-                  <h5>Pairs well with: </h5>
-                  <NavLink to='/'> Go back to home </NavLink>
+                  <h3> Tailor your Wine Search: </h3>
+                    <Form onSubmit={this.handleFormSubmit.bind(this)}>
+                      <Form.Field>
+                        { currentUser ? <input ref="zipcode" defaultValue={currentUser.zipcode} /> : <input ref="zipcode" defaultValue={90404} /> }
+                      </Form.Field>
+                      <Form.Field>
+                        <input ref="price" defaultValue='$$' />
+                      </Form.Field>
+                      <Form.Field>
+                        <input ref="varietal" defaultValue={varietal} />
+                      </Form.Field>
+                      <Button color='olive' type='submit' className='filterButton'>Update Search</Button>
+                    </Form>
                 </div>
               </Segment>
             </Grid.Column>
