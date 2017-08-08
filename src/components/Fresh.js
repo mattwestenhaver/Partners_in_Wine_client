@@ -53,7 +53,7 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Feta</h3>
                 <img src={feta} alt='Feta' />
-                <p>A brined curd white cheese made in Greece from sheep's milk, or from a mixture of sheep and goat's milk. It is a crumbly aged cheese, commonly produced in blocks, and has a slightly grainy texture. High-quality feta should have a creamy texture when sampled, and aromas of ewe's milk, butter, and yoghurt. In the mouth it is tangy, slightly salty, and mildly sour, with a spicy finish that recalls pepper and ginger, as well as a hint of sweetness.</p>
+                <p>A brined curd white cheese that is made in Greece from sheep's milk. It is a crumbly aged cheese, and has a grainy texture. High-quality feta should have a creamy texture when sampled, and aromas of ewe's milk, butter, and yoghurt. It is tangy, slightly salty, and mildly sour, with a spicy finish, as well as a hint of sweetness.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Beaujolais </NavLink>
               </div>
@@ -77,7 +77,7 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Queso Fresco</h3>
                 <img src={queso_fresco} alt='Queso Fresco' />
-                <p>A creamy, soft, and mild unaged white cheese, commonly used in the Iberian Peninsula, several Latin American countries including Mexico, and many parts of the United States. Queso blanco and queso fresco may be eaten straight or mixed in with dishes. They make a creamy addition to recipes. They are often used as a topping for spicy Mexican dishes such as enchiladas and empanadas, or crumbled over soups or salads.</p>
+                <p>A creamy, soft, and mild unaged white cheese, commonly used in several Latin American countries and many parts of the United States. Queso fresco may be eaten straight or mixed in with dishes. They are often used as a topping for spicy Mexican dishes such as enchiladas and empanadas, or crumbled over soups or salads.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Sauvignon Blanc </NavLink>
               </div>
