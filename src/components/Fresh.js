@@ -20,9 +20,9 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Ricotta</h3>
                 <img src={ricotta} alt='Ricotta' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>An Italian whey cheese made from sheep, cow, goat, or Italian water buffalo milk whey left over from the production of cheese. Ricotta curds are creamy white in appearance, and slightly sweet in taste. The fat content changes depending on the brand and the type of milk used.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Pinot Grigio </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -31,9 +31,9 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Mozzarella</h3>
                 <img src={mozzarella} alt='Mozzarella' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A traditionally southern Italian dairy product made from Italian buffalo's milk by the pasta filata method. Fresh mozzarella is generally white, but may vary seasonally to slightly yellow depending on the animal's diet.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Sauvignon Blanc </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -42,9 +42,9 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Goat</h3>
                 <img src={goat} alt='Goat' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>Goat cheese has been made for thousands of years, and was probably one of the earliest made dairy products. Goat cheese softens when exposed to heat, although it does not melt in the same way many cow cheeses do. Firmer goat cheeses with rinds are sometimes baked in an oven to create a softer more viscous texture.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Chenin Blanc </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -53,9 +53,9 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Feta</h3>
                 <img src={feta} alt='Feta' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A brined curd white cheese made in Greece from sheep's milk, or from a mixture of sheep and goat's milk. It is a crumbly aged cheese, commonly produced in blocks, and has a slightly grainy texture. High-quality feta should have a creamy texture when sampled, and aromas of ewe's milk, butter, and yoghurt. In the mouth it is tangy, slightly salty, and mildly sour, with a spicy finish that recalls pepper and ginger, as well as a hint of sweetness.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Beaujolais </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -66,9 +66,9 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Burrata</h3>
                 <img src={burrata} alt='Burrata' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A fresh Italian cheese made from mozzarella and cream. The outer shell is solid mozzarella, while the inside contains stracciatella and cream, giving it an unusual, soft texture. The cheese has a rich, buttery flavor and retains its fresh milkiness. It is best when eaten within 24 hours and is considered past its prime after 48 hours.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Tocai Friulano </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -77,9 +77,9 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h3>Queso Fresco</h3>
                 <img src={queso_fresco} alt='Queso Fresco' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A creamy, soft, and mild unaged white cheese, commonly used in the Iberian Peninsula, several Latin American countries including Mexico, and many parts of the United States. Queso blanco and queso fresco may be eaten straight or mixed in with dishes. They make a creamy addition to recipes. They are often used as a topping for spicy Mexican dishes such as enchiladas and empanadas, or crumbled over soups or salads.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Sauvignon Blanc </NavLink>
               </div>
             </Segment>
           </Grid.Column>
