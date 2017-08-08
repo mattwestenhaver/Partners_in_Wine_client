@@ -20,6 +20,7 @@ const Home = (props) => {
               <h2><NavLink to='/bloomy'>Bloomy</NavLink></h2>
               <img src={bloomy} alt='Bloomy Cheese' />
               <p>Creamy, decadent cheeses, with a soft rind.</p>
+              <p>Bloomy cheeses love crisp whites, dry rosés, sparkling wines, and light-bodied reds with low tannins. Avoid big, tannic red wines like Malbec, Cabernet Sauvignon, and Bordeaux.</p>
             </div>
           </Segment>
         </Grid.Column>
@@ -29,6 +30,8 @@ const Home = (props) => {
               <h2><NavLink to='/hard'>Hard</NavLink></h2>
               <img src={hard} alt='Hard Cheese' />
               <p>Stiff cheeses, which are often sharp and/or salty. They can also be aged.</p>
+              <h4> Pairing Notes:</h4>
+              <p>Harder cheeses love full-bodied whites and tannic reds. Their nuttiness also works with oxidative wines like sherry, and their saltiness makes them terrific with sweet wines.</p>
             </div>
           </Segment>
         </Grid.Column>
@@ -38,6 +41,8 @@ const Home = (props) => {
               <h2><NavLink to='/blue'>Blue</NavLink></h2>
               <img src={blue} alt='Blue Cheese' />
               <p>Pungent, often salty cheeses, with a blue tinge.</p>
+              <h4> Pairing Notes:</h4>
+              <p>Blue cheeses need wines with both oomph and sweetness to balance their bold flavors and usually very salty, savory body.</p>
             </div>
           </Segment>
         </Grid.Column>
@@ -47,6 +52,8 @@ const Home = (props) => {
               <h2><NavLink to='/fresh'>Fresh</NavLink></h2>
               <img src={fresh} alt='Fresh Cheese' />
               <p>Soft, often spreadable cheeses that can be tangy or mild. They are not usually aged.</p>
+              <h4> Pairing Notes:</h4>
+              <p>Fresh and soft cheeses love crisp whites, dry rosés, sparkling wines, and light-bodied reds with low tannins. Avoid big, tannic red wines like Malbec, Cabernet Sauvignon, and Bordeaux.</p>
             </div>
           </Segment>
         </Grid.Column>

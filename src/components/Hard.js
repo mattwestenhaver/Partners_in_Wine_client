@@ -24,6 +24,8 @@ const Hard = (props) => {
                 <p>A Dutch yellow cheese made from cow's milk. It is named after the city of Gouda in the Netherlands. It has a "lovely fruity tang" with a "sweet finish", that may take on "an almost butterscotch flavor" if aged over two years.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Grenache </NavLink>
+                <NavLink to='/'> Barbera </NavLink>
               </div>
             </Segment>
           </Grid.Column>
