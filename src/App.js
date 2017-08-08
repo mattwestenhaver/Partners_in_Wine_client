@@ -48,7 +48,7 @@ class App extends Component {
           <Route path='/hard' component={Hard} />
           <Route path='/blue' component={Blue} />
           <Route path='/bloomy' component={Bloomy} />
-          <Route path='/wine' component={Wine} />
+          <Route path='/wine' render={ ()=> <Wine currentUser={this.state.currentUser}  /> } />
           <Route path='/signup' component={SignUp} />
           <Route path='/login' render={() => (
             <LogIn onLogIn={this.setCurrentUser.bind(this)} />

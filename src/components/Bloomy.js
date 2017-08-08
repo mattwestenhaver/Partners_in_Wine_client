@@ -21,7 +21,7 @@ const Bloomy = (props) => {
                 <img src={camembert} alt='Camembert' />
                 <p>A soft, creamy, surface-ripened cow's milk cheese. It was first made in the late 18th century at Camembert, Normandy, in northern France.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/wine'> Champagne </NavLink>
+                <NavLink to='/wine' varietal="Champagne"> Champagne </NavLink>
               </div>
             </Segment>
           </Grid.Column>
