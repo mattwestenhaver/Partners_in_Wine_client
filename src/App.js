@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <MenuBar />
+          <MenuBar currentUser={this.state.currentUser}/>
           <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <h2>Partners In Wine...</h2>
