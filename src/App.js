@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import auth from './auth'
 
 import Home from './components/Home.js'
@@ -10,6 +10,7 @@ import Hard from './components/Hard.js'
 import Blue from './components/Blue.js'
 import Bloomy from './components/Bloomy.js'
 
+import MenuBar from './components/MenuBar.js'
 import SignUp from './components/SignUp.js'
 import LogIn from './components/LogIn.js'
 
@@ -30,16 +31,10 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <MenuBar />
           <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <h2>Partners In Wine...</h2>
-            <ul className="navBar">
-              <div>
-                <li><NavLink to='/'>Home</NavLink></li>
-                <li><NavLink to='/login'>Log In</NavLink></li>
-                <li><NavLink to='/signup'>Sign Up</NavLink></li>
-              </div>
-            </ul>
           </div>
           {currentUser
             ? <p>welcome, {currentUser.name}!</p>

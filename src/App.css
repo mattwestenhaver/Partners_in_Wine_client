@@ -9,8 +9,8 @@
 
 .App-header {
   background-color: #660066;
-  height: 220px;
-  padding: 20px;
+  height: 170px;
+  padding: 5px;
   color: white;
   margin-bottom: 10px;
 }
@@ -59,4 +59,15 @@ a:hover {
 .signUp, .logIn {
   width: 500px;
   margin: 0 auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 15px;
+  -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.50);
+  -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.50);
+  box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.50);
+}
+
+.menuBar {
+  margin-bottom: 0!important;
+  border-radius: 0!important;
 }
