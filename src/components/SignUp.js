@@ -37,10 +37,11 @@ class SignUp extends React.Component {
             <input ref="password" type="password" placeholder='Password' />
           </Form.Field>
           <Form.Field>
-            <Checkbox label='I pledge allegiance to these cheeses' />
+            <Checkbox label='I pledge allegiance to the cheeses' />
           </Form.Field>
-          <Button color='violet' type='submit'>Create Account</Button>
+          <Button color='violet' type='submit' className='signUpButton'>Create Account</Button>
         </Form>
+        <h4>Already have an account? <a href='/login'>Log In</a>!</h4>
       </div>
     )
   }

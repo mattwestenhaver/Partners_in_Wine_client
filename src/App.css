@@ -4,12 +4,12 @@
 
 .App-logo {
   animation: App-logo-spin infinite 2s linear;
-  height: 80px;
+  height: 70px;
 }
 
 .App-header {
   background-color: #660066;
-  height: 170px;
+  height: 160px;
   padding: 5px;
   color: white;
   margin-bottom: 10px;
@@ -58,7 +58,7 @@ a:hover {
 
 .signUp, .logIn {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 70px auto;
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 15px;
