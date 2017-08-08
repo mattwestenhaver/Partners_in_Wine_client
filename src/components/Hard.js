@@ -3,7 +3,7 @@ import { Grid, Segment } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 
 import gouda from '../images/Gouda.jpg'
-import brie from '../images/Brie.jpg'
+import cheddar from '../images/Cheddar.jpg'
 import parmesan from '../images/Parmesan.jpg'
 import double_gloucester from '../images/double_glouchester.jpg'
 import pecorino from '../images/pecorino.jpg'
@@ -21,7 +21,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Gouda</h3>
                 <img src={gouda} alt='Gouda' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A Dutch yellow cheese made from cow's milk. It is named after the city of Gouda in the Netherlands. It has a "lovely fruity tang" with a "sweet finish", that may take on "an almost butterscotch flavor" if aged over two years.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/'> Merlot </NavLink>
               </div>
@@ -30,11 +30,11 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Brie</h3>
-                <img src={brie} alt='Brie' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <h3>Cheddar</h3>
+                <img src={cheddar} alt='Cheddar' />
+                <p>A relatively hard, off-white, natural cheese. Originating in the British village of Cheddar in Somerset, cheeses of this style are produced beyond this region and in several countries around the world.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Cabernet Sauvignon </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -43,9 +43,9 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Parmesan</h3>
                 <img src={parmesan} alt='Parmesan' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A hard, granular cheese. It has a sharp, complex fruity/nutty taste with a strong savory flavor and a slightly gritty texture. Inferior versions can impart a bitter taste.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Chianti </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -54,9 +54,9 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Double Gloucester</h3>
                 <img src={double_gloucester} alt='Double Gloucester' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A traditional, semi-hard cheese which has been made in Gloucestershire, England, since the 16th century, at one time made only with the milk of the once nearly extinct Gloucester cattle. Double Gloucester is allowed to age for longer periods than Single, and it has a stronger and more savoury flavour.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Zinfandel </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -67,9 +67,9 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Pecorino</h3>
                 <img src={pecorino} alt='Pecorino' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but still crumbly in texture and have decidedly buttery and nutty flavours. The other two types semi-stagionato and fresco have a softer texture and milder cream and milk tastes.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Valpolicella </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -78,9 +78,9 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Gruyere</h3>
                 <img src={gruyere} alt='Gruyere' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>A hard yellow cheese, named after the town of Gruyères in Switzerland, and originated in the cantons of Fribourg, Vaud, Neuchâtel, Jura, and Berne. It is often described as creamy and nutty when young, becoming more assertive, earthy, and complex as it matures.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Sauvignon Blanc </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -89,9 +89,9 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h3>Fontina</h3>
                 <img src={fontina} alt='Fontina' />
-                <p>Creamy, decadent cheeses, with a soft rind.</p>
+                <p>An Italian cow's milk cheese. Although made throughout the year, the best cheese is obtained during the summer when the cows are moved to an altitude of 550-700 meters and fed only with rich grass to give it a distinctive aroma. It is noted for its earthy, mushroomy, and woody taste, and pairs exceptionally well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink>
+                <NavLink to='/'> Bardolino </NavLink>
               </div>
             </Segment>
           </Grid.Column>
