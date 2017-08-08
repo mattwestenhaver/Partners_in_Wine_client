@@ -11,6 +11,7 @@ import Blue from './components/Blue.js'
 import Bloomy from './components/Bloomy.js'
 
 import SignUp from './components/SignUp.js'
+import LogIn from './components/LogIn.js'
 
 class App extends Component {
 
@@ -25,6 +26,7 @@ class App extends Component {
   }
 
   render() {
+    const currentUser = this.state.currentUser
     return (
       <Router>
         <div className="App">
@@ -34,16 +36,24 @@ class App extends Component {
             <ul className="navBar">
               <div>
                 <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/login'>Log In</NavLink></li>
                 <li><NavLink to='/signup'>Sign Up</NavLink></li>
               </div>
             </ul>
           </div>
+          {currentUser
+            ? <p>welcome, {currentUser.name}!</p>
+            : <p>log in or sign up!</p>
+          }
           <Route exact path='/' component={Home} />
           <Route path='/fresh' component={Fresh} />
           <Route path='/hard' component={Hard} />
           <Route path='/blue' component={Blue} />
           <Route path='/bloomy' component={Bloomy} />
           <Route path='/signup' component={SignUp} />
+          <Route path='/login' render={() => (
+            <LogIn onLogIn={this.setCurrentUser.bind(this)} />
+          )}/>
         </div>
       </Router>
     );

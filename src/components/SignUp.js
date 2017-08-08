@@ -22,6 +22,7 @@ class SignUp extends React.Component {
   render() {
     return (
       <div className="signUp">
+        <h1>Sign Up</h1>
         <Form onSubmit={this.handleFormSubmit.bind(this)}>
           <Form.Field>
             <input ref="name" placeholder='Name' />
