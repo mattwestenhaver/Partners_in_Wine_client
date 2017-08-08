@@ -27,6 +27,9 @@ class MenuBar extends React.Component {
           <Menu.Item name='login' as={Link} to='/login' active={activeItem === 'login'} onClick={this.handleItemClick}>
             Log In
           </Menu.Item>
+          <Menu.Item name='logout' as={Link} to='/logout' active={activeItem === 'logout'} onClick={this.handleItemClick}>
+            Log Out
+          </Menu.Item>
           <Menu.Item name='signup' as={Link} to='/signup' active={activeItem === 'signup'} onClick={this.handleItemClick}>
             Sign Up
           </Menu.Item>
