@@ -19,7 +19,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Gouda</h3>
+                <h2>Gouda</h2>
                 <img src={gouda} alt='Gouda' />
                 <p>A Dutch yellow cheese made from cow's milk. It is named after the city of Gouda in the Netherlands. It has a "lovely fruity tang" with a "sweet finish", that may take on "an almost butterscotch flavor" if aged over two years.</p>
                 <h5>Pairs well with: </h5>
@@ -32,7 +32,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Cheddar</h3>
+                <h2>Cheddar</h2>
                 <img src={cheddar} alt='Cheddar' />
                 <p>A relatively hard, off-white, natural cheese. Originating in the British village of Cheddar in Somerset, cheeses of this style are produced beyond this region and in several countries around the world.</p>
                 <h5>Pairs well with: </h5>
@@ -43,7 +43,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Parmesan</h3>
+                <h2>Parmesan</h2>
                 <img src={parmesan} alt='Parmesan' />
                 <p>A hard, granular cheese. It has a sharp, complex fruity/nutty taste with a strong savory flavor and a slightly gritty texture. Inferior versions can impart a bitter taste.</p>
                 <h5>Pairs well with: </h5>
@@ -54,7 +54,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Double Gloucester</h3>
+                <h2>Double Gloucester</h2>
                 <img src={double_gloucester} alt='Double Gloucester' />
                 <p>A traditional cheese made in Gloucestershire, England, since the 16th century, at one time made only with the milk of the once nearly extinct Gloucester cattle. It is allowed to age for longer periods than Single, and has a stronger and more savoury flavour.</p>
                 <h5>Pairs well with: </h5>
@@ -67,7 +67,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Pecorino</h3>
+                <h2>Pecorino</h2>
                 <img src={pecorino} alt='Pecorino' />
                 <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but crumbly in texture and have buttery and nutty flavours. The other two types have a softer texture and milder cream and milk tastes.</p>
                 <h5>Pairs well with: </h5>
@@ -78,7 +78,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Gruyere</h3>
+                <h2>Gruyere</h2>
                 <img src={gruyere} alt='Gruyere' />
                 <p>A hard yellow cheese, named after the town of Gruyères in Switzerland, and originated in the cantons of Fribourg, Vaud, Neuchâtel, Jura, and Berne. It is often described as creamy and nutty when young, becoming more assertive, earthy, and complex as it matures.</p>
                 <h5>Pairs well with: </h5>
@@ -89,7 +89,7 @@ const Hard = (props) => {
           <Grid.Column>
             <Segment>
               <div className='cheeseBox'>
-                <h3>Fontina</h3>
+                <h2>Fontina</h2>
                 <img src={fontina} alt='Fontina' />
                 <p>An Italian cow's milk cheese. The best cheese is obtained during the summer when the cows are moved to high altitudes and fed only with rich grass to give it a distinctive aroma. It is noted for its earthy, mushroomy, and woody taste, and pairs well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
                 <h5>Pairs well with: </h5>
