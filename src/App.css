@@ -1,18 +1,28 @@
 .App {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 2s linear;
-  height: 70px;
+  width: 180px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
 }
 
 .App-header {
-  background-color: #660066;
-  height: 160px;
+  background-color: lightgray;
+  height: 80px;
   padding: 5px;
-  color: white;
+  color: black;
   margin-bottom: 10px;
+}
+
+.App-header h2 {
+  float: left;
+  line-height: 18px;
+  padding-left: 10px;
+  font-size: 30px;
 }
 
 .App-intro {
@@ -66,8 +76,9 @@ h5 {
 
 .signUp, .logIn {
   width: 500px;
-  margin: 0 auto 70px auto;
+  margin: 40px auto 70px auto;
   border: 1px solid lightgray;
+  background: white;
   border-radius: 5px;
   padding: 15px;
   -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.50);

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import { Menu } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
@@ -12,18 +13,23 @@ class MenuBar extends React.Component {
     }
   }
 
+  static propTypes = {
+    color: PropTypes.string,
+  }
+
   handleItemClick = (e, { name }) => this.setState({
     activeItem: name
   })
 
   render() {
+    const { color } = this.props
     const { activeItem } = this.state
     const currentUser = this.props.currentUser
 
     return (
-      <Menu className='menuBar'>
+      <Menu color={color} className='menuBar'>
         <Menu.Item name='piw' as={Link} to='/' active={activeItem === 'piw'} onClick={this.handleItemClick}>
-          Partners In Wine
+          Home
         </Menu.Item>
         <Menu.Item name='home' as={Link} to='/' active={activeItem === 'home'} onClick={this.handleItemClick}>
           <span className='cheesePic'>🧀</span>

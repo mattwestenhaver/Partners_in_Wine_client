@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/piwlogoholeRIGHT.png'
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import auth from './auth'
@@ -34,21 +34,19 @@ class App extends Component {
   }
 
   render() {
-    const currentUser = this.state.currentUser
     return (
       <Router>
         <div className="App">
-          <MenuBar currentUser={this.state.currentUser}/>
+          <MenuBar color={'grey'} currentUser={this.state.currentUser}/>
           <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h2>Partners In Wine...</h2>
+            <img src={logo} className="App-logo" alt="logo" /><h2>Partners In Wine</h2>
           </div>
           <Route exact path='/' component={Home} />
           <Route path='/fresh' component={Fresh} />
           <Route path='/hard' component={Hard} />
           <Route path='/blue' component={Blue} />
           <Route path='/bloomy' component={Bloomy} />
-          <Route path='/wine' render={ ()=> <Wine currentUser={this.state.currentUser}  /> } />
+          <Route path='/wine' render={ ()=> <Wine currentUser={this.state.currentUser} /> } />
           <Route path='/signup' component={SignUp} />
           <Route path='/login' render={() => (
             <LogIn onLogIn={this.setCurrentUser.bind(this)} />
