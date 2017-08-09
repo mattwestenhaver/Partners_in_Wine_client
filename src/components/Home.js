@@ -6,6 +6,7 @@ import hard from '../images/hardcheese.jpg'
 import blue from '../images/bluecheese.jpg'
 import fresh from '../images/fresh_v2.jpg'
 
+
 const Home = (props) => {
   return (
     <div className='cheeseWrapper'>
