@@ -10,9 +10,9 @@ import fresh from '../images/fresh_v2.jpg'
 const Home = (props) => {
   return (
     <div className='cheeseWrapper'>
-      <p className="App-intro">
+      <h2 className="App-intro">
         Choose your cheese...
-      </p>
+      </h2>
 
       <Grid columns='equal'>
         <Grid.Column>
