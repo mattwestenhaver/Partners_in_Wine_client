@@ -70,7 +70,7 @@ class Wine extends React.Component {
                         { currentUser ? <input ref="zipcode" defaultValue={currentUser.zipcode} /> : <input ref="zipcode" defaultValue={90404} /> }
                       </Form.Field>
                       <Form.Field>
-                        <input ref="price" defaultValue='$$' />
+                        <input ref="price" defaultValue='30' />
                       </Form.Field>
                       <Form.Field>
                         <input ref="varietal" defaultValue={this.props.type} />

@@ -45,7 +45,7 @@ const Bloomy = (props) => {
                 <img src={robiola} alt='Robiola' />
                 <p>An Italian soft-ripened cheese of the Stracchino family. It is from the Langhe region and made with varying proportions of cow’s, goat’s milk and sheep milk.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/wine'> Sparkling Wine </NavLink>
+                <NavLink to='/wine?type=Sparkling%20Wine'> Sparkling Wine </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -57,7 +57,7 @@ const Bloomy = (props) => {
                 <img src={taleggio} alt='Taleggio' />
                 <p>A semisoft, washed-rind, smear-ripened Italian cheese that is named after Val Taleggio. The cheese has a thin crust and a strong aroma, but its flavor is comparatively mild with an unusual fruity tang.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/wine'> Pinot Blanc </NavLink>
+                <NavLink to='/wine?type=Pinot%20Blanc'> Pinot Blanc </NavLink>
               </div>
             </Segment>
           </Grid.Column>
