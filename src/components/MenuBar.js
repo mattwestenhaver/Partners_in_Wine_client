@@ -32,7 +32,7 @@ class MenuBar extends React.Component {
           Home
         </Menu.Item>
         <Menu.Item name='home' as={Link} to='/' active={activeItem === 'home'} onClick={this.handleItemClick}>
-          <span className='cheesePic'>🧀</span>
+          <span className='cheesePic' role='img' aria-label='cheese'>🧀</span>
         </Menu.Item>
         {currentUser
         ? (
