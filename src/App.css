@@ -155,3 +155,12 @@ hr {
 ul {
   padding-left: 0;
 }
+
+.wineSearcher h4 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.buttonGroup {
+  padding-left: 10px;
+}
