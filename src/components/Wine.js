@@ -1,14 +1,31 @@
 import React from 'react'
 import { Grid, Segment, Button, Form } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
+import axios from 'axios'
+
+const apiKey = process.env.API_KEY
 
 class Wine extends React.Component {
 
   constructor(props) {
     super(props)
     this.state = {
-      currentUser: props.currentUser
+      currentUser: props.currentUser,
+      wines: []
     }
+  }
+
+  getWines(formData){
+    console.log("Getting wines..")
+    axios({url: `https://ancient-sierra-55559.herokuapp.com/wines?type=${formData.varietal}&xp=${formData.price}` })
+      .then( (response) => {
+        console.log(response)
+
+      })
+  }
+
+  componentDidMount(){
+    // this.getWines()
   }
 
   handleFormSubmit(evt) {
@@ -19,7 +36,9 @@ class Wine extends React.Component {
       varietal: this.refs.varietal.value
     }
     console.log(formData)
+    this.getWines(formData)
   }
+
 
   render(){
     const
