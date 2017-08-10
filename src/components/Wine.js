@@ -15,8 +15,10 @@ class Wine extends React.Component {
 
   getWines(formData){
     console.log("Getting wines..")
-    axios({url: `https://ancient-sierra-55559.herokuapp.com/wines?type=${formData.varietal}&xp=${formData.price}` })
-      .then( (response) => {
+    axios({
+      url: `https://ancient-sierra-55559.herokuapp.com/wines?type=${formData.varietal}&xp=${formData.price}`
+    })
+      .then((response) => {
         console.log(response)
       })
   }
@@ -62,13 +64,13 @@ class Wine extends React.Component {
                   <h3> Tailor your Wine Search: </h3>
                     <Form onSubmit={this.handleFormSubmit.bind(this)}>
                       <Form.Field>
+                        <input ref="varietal" defaultValue={this.props.type} />
+                      </Form.Field>
+                      <Form.Field>
                         { currentUser ? <input ref="zipcode" defaultValue={currentUser.zipcode} /> : <input ref="zipcode" defaultValue={90404} /> }
                       </Form.Field>
                       <Form.Field>
                         <input ref="price" defaultValue='30' />
-                      </Form.Field>
-                      <Form.Field>
-                        <input ref="varietal" defaultValue={this.props.type} />
                       </Form.Field>
                       <Button color='olive' type='submit' className='filterButton'>Update Search</Button>
                     </Form>
