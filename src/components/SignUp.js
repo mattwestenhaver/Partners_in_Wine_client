@@ -18,7 +18,9 @@ class SignUp extends React.Component {
       password: this.refs.password.value
     }
     auth.signUp(formData).then(success => {
-
+      this.setState({
+        shouldRedirect: true
+      })
     })
   }
 
