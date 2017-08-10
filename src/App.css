@@ -12,7 +12,7 @@ div, h1, h3, h4, h5 {
 }
 
 .App-logo {
-  width: 180px;
+  width: 150px;
   margin-top: 10px;
   margin-left: 10px;
   float: left;
@@ -20,7 +20,7 @@ div, h1, h3, h4, h5 {
 
 .App-header {
   background-color: lightgray;
-  height: 80px;
+  height: 70px;
   padding: 5px;
   color: black;
   margin-bottom: 15px;
@@ -31,9 +31,10 @@ div, h1, h3, h4, h5 {
 
 .App-header h2 {
   float: left;
-  line-height: 18px;
-  padding-left: 10px;
-  font-size: 30px;
+  margin-top: 0px;
+  line-height: 60px;
+  padding-left: 14px;
+  font-size: 24px;
 }
 
 .App-intro {
@@ -74,6 +75,13 @@ h5 {
 .cheeseBox img {
   max-width: 100%;
   border-radius: 5px;
+}
+
+.wineBox {
+  width: vw;
+  margin: 0 auto;
+  padding-left: 120px;
+  text-align: center;
 }
 
 .navBar li {

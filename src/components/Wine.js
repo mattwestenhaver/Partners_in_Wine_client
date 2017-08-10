@@ -29,17 +29,20 @@ class Wine extends React.Component {
 
     return (
       <div>
-      <h1> This is the Wine Page</h1>
+      <h1>Wine Suggestions</h1>
+        <div className='wineBox'>
           <Grid>
-            <Grid.Column width={12}>
+            <Grid.Column width={11}>
+              <Segment>
                 <div className='cheeseBox'>
                   <h3>List of Wines</h3>
                   <p>Here are all the wines.</p>
                   <NavLink to='/'> Go back to home  </NavLink>
                 </div>
+              </Segment>
             </Grid.Column>
 
-            <Grid.Column width={4}>
+            <Grid.Column width={3}>
               <Segment>
                 <div className='cheeseBox'>
                   <h3> Tailor your Wine Search: </h3>
@@ -51,7 +54,7 @@ class Wine extends React.Component {
                         <input ref="price" defaultValue='$$' />
                       </Form.Field>
                       <Form.Field>
-                        <input ref="varietal" defaultValue={varietal} />
+                        <input ref="varietal" defaultValue={this.props.type} />
                       </Form.Field>
                       <Button color='olive' type='submit' className='filterButton'>Update Search</Button>
                     </Form>
@@ -60,6 +63,7 @@ class Wine extends React.Component {
             </Grid.Column>
           </Grid>
         </div>
+      </div>
     )
   }
 }
