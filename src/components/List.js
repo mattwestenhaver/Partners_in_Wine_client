@@ -10,12 +10,12 @@ const List = (props) => {
             <div className='wineList'>
 
                 <div className='bottlePic'>
-                  <img src={item.image} alt={item.name}/>
+                  <img src={item.image} alt=''/>
                 </div>
 
                 <div className='bottleInfo'>
                   <a href={item.link}> {item.name} </a>
-                  <p> Country: {item.region} </p>
+                  <p> {item.region.slice(0, (item.region.indexOf('>')))} </p>
                   <p> Price: ${item.price} </p>
                 </div>
 

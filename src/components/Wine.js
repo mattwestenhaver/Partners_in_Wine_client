@@ -11,7 +11,8 @@ class Wine extends React.Component {
     super(props)
     this.state = {
       currentUser: props.currentUser,
-      wines: []
+      wines: [],
+      price: 30
     }
   }
 
@@ -37,11 +38,32 @@ class Wine extends React.Component {
     evt.preventDefault()
     const formData = {
       zipcode: this.refs.zipcode.value,
-      price: this.refs.price.value,
+      price: this.state.price,
       varietal: this.refs.varietal.value
     }
     console.log(formData)
     this.getWines(formData)
+  }
+
+  priceLow(evt) {
+    evt.preventDefault()
+    this.setState({
+      price: 15
+    })
+  }
+
+  priceMedium(evt) {
+    evt.preventDefault()
+    this.setState({
+      price: 40
+    })
+  }
+
+  priceHigh(evt) {
+    evt.preventDefault()
+    this.setState({
+      price: 100
+    })
   }
 
 
@@ -67,23 +89,28 @@ class Wine extends React.Component {
 
             <Grid.Column width={4}>
               <Segment>
-                <div className='cheeseBox'>
+                <div className='wineSearcher'>
                   <h3> Tailor your Wine Search: </h3>
+                    <div className='buttonGroup'>
+                      <Button.Group floated='left' size='medium'>
+                        <Button onClick={this.priceLow.bind(this)}>$</Button>
+                        <Button onClick={this.priceMedium.bind(this)}>$$</Button>
+                        <Button onClick={this.priceHigh.bind(this)}>$$$</Button>
+                      </Button.Group>
+                    </div><br /><br /><br />
                     <Form onSubmit={this.handleFormSubmit.bind(this)}>
                       <h4>Type:</h4>
                       <Form.Field>
                         <input ref="varietal" defaultValue={this.props.type} />
                       </Form.Field>
+                      <h4>Zip Code:</h4>
                       <Form.Field>
                         { currentUser
                           ? <input ref="zipcode" defaultValue={currentUser.zipcode} />
                           : <input ref="zipcode" defaultValue={90404} />
                         }
                       </Form.Field>
-                      <Form.Field>
-                        <input ref="price" defaultValue='30' />
-                      </Form.Field>
-                      <Button color='olive' type='submit' className='filterButton'>Update Search</Button>
+                      <Button color='olive' type='submit' className='filterButton'>Filter</Button>
                     </Form>
                 </div>
               </Segment>
