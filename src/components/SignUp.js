@@ -17,8 +17,6 @@ class SignUp extends React.Component {
       zipcode: this.refs.zipcode.value,
       password: this.refs.password.value
     }
-    console.log(formData)
-
     auth.signUp(formData).then(success => {
 
     })
