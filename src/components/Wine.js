@@ -30,8 +30,14 @@ class Wine extends React.Component {
       })
   }
 
-  componentDidMount(){
-    // this.getWines()
+  componentDidMount() {
+    const zipcode = this.state.currentUser ? this.state.currentUser.zipcode : 90404
+    const formData = {
+      zipcode: zipcode,
+      price: this.state.price,
+      varietal: this.props.type
+    }
+    this.getWines(formData)
   }
 
   handleFormSubmit(evt) {
