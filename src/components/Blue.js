@@ -51,7 +51,7 @@ const Blue = (props) => {
               <div className='cheeseBox'>
                 <h2>Cambozola</h2>
                 <img src={cambozola} alt='Cambozola' />
-                <p>A cow's milk cheese that is a combination in style of a French soft-ripened triple cream cheese and Italian Gorgonzola. Cambozola is considerably milder than Gorgonzola piccante and features a smooth, creamy texture with a subdued blue flavour.</p>
+                <p>A cow's milk cheese that combines the styles of French soft-ripened triple cream cheese and Italian Gorgonzola. Cambozola is considerably milder than Gorgonzola and has a smooth, creamy texture with a subdued blue flavor.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Eiswein'> Eiswein </NavLink>
               </div>
