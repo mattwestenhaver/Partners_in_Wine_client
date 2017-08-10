@@ -21,7 +21,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Gouda</h2>
                 <img src={gouda} alt='Gouda' />
-                <p>A Dutch yellow cheese made from cow's milk. It is named after the city of Gouda in the Netherlands. It has a "lovely fruity tang" with a "sweet finish", that may take on "an almost butterscotch flavor" if aged over two years.</p>
+                <p>A Dutch yellow cheese made from cow's milk. It has a "lovely fruity tang" with a "sweet finish", that may take on "an almost butterscotch flavor" if aged over two years.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Merlot'> Merlot </NavLink>
               </div>
@@ -32,7 +32,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Cheddar</h2>
                 <img src={cheddar} alt='Cheddar' />
-                <p>A relatively hard, off-white, natural cheese. Originating in the British village of Cheddar in Somerset, cheeses of this style are produced beyond this region and in several countries around the world.</p>
+                <p>A relatively hard, off-white, natural cheese. Originating in the British village of Cheddar in Somerset, cheeses of this style experienced widespread international adoption.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Cabernet%20Sauvignon'> Cabernet Sauvignon </NavLink>
               </div>
@@ -54,7 +54,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Double Gloucester</h2>
                 <img src={double_gloucester} alt='Double Gloucester' />
-                <p>A traditional cheese made in Gloucestershire, England, since the 16th century, at one time made only with the milk of the once nearly extinct Gloucester cattle. It is allowed to age for longer periods than Single, and has a stronger and more savoury flavour.</p>
+                <p>A traditional cheese made in Gloucestershire, England, since the 16th century. It is allowed to age for longer periods than Single, and has a stronger and more savoury flavour.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Zinfandel'> Zinfandel </NavLink>
               </div>
@@ -67,7 +67,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Pecorino</h2>
                 <img src={pecorino} alt='Pecorino' />
-                <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but crumbly in texture and have buttery and nutty flavours. The other two types have a softer texture and milder cream and milk tastes.</p>
+                <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but crumbly in texture and have buttery and nutty flavours, while younger versions are softer with a more mild taste.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Valpolicella'> Valpolicella </NavLink>
               </div>
@@ -78,7 +78,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Gruyere</h2>
                 <img src={gruyere} alt='Gruyere' />
-                <p>A hard yellow cheese, named after the town of Gruyères in Switzerland, and originated in the cantons of Fribourg, Vaud, Neuchâtel, Jura, and Berne. It is often described as creamy and nutty when young, becoming more assertive, earthy, and complex as it matures.</p>
+                <p>A hard yellow Swiss cheese. It is often described as creamy and nutty when young, becoming more assertive, earthy, and complex as it matures.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Sauvignon%20Blanc'> Sauvignon Blanc </NavLink>
               </div>
@@ -89,7 +89,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Fontina</h2>
                 <img src={fontina} alt='Fontina' />
-                <p>An Italian cow's milk cheese. The best cheese is obtained during the summer when the cows are moved to high altitudes and fed with rich grass. It is noted for its earthy, mushroomy, and woody taste, and pairs well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
+                <p>An Italian cow's milk cheese. It is noted for its earthy, mushroomy, and woody taste, and pairs well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Bardolino'> Bardolino </NavLink>
               </div>

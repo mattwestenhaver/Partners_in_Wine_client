@@ -55,7 +55,7 @@ const Bloomy = (props) => {
               <div className='cheeseBox'>
                 <h2>Taleggio</h2>
                 <img src={taleggio} alt='Taleggio' />
-                <p>A semisoft, washed-rind, smear-ripened Italian cheese that is named after Val Taleggio. The cheese has a thin crust and a strong aroma, but its flavor is comparatively mild with an unusual fruity tang.</p>
+                <p>A semisoft, washed-rind, smear-ripened Italian cheese. The cheese has a thin crust and a strong aroma, but its flavor is comparatively mild with an unusual fruity tang.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Pinot%20Blanc'> Pinot Blanc </NavLink>
               </div>
