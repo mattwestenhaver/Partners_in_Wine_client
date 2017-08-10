@@ -89,7 +89,7 @@ const Hard = (props) => {
               <div className='cheeseBox'>
                 <h2>Fontina</h2>
                 <img src={fontina} alt='Fontina' />
-                <p>An Italian cow's milk cheese. The best cheese is obtained during the summer when the cows are moved to high altitudes and fed only with rich grass to give it a distinctive aroma. It is noted for its earthy, mushroomy, and woody taste, and pairs well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
+                <p>An Italian cow's milk cheese. The best cheese is obtained during the summer when the cows are moved to high altitudes and fed with rich grass. It is noted for its earthy, mushroomy, and woody taste, and pairs well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Bardolino'> Bardolino </NavLink>
               </div>
