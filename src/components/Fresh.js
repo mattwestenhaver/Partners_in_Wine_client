@@ -66,7 +66,7 @@ const Fresh = (props) => {
               <div className='cheeseBox'>
                 <h2>Burrata</h2>
                 <img src={burrata} alt='Burrata' />
-                <p>A fresh Italian cheese made from mozzarella and cream. The outer shell is solid mozzarella, while the inside contains stracciatella and cream, giving it an unusual, soft texture. The cheese has a rich, buttery flavor and retains its fresh milkiness. It is best when eaten within 24 hours and is considered past its prime after 48 hours.</p>
+                <p>A fresh Italian cheese made from mozzarella and cream. The outer shell is solid mozzarella, while the inside contains stracciatella and cream, giving it an unusual, soft texture. The cheese has a rich, buttery flavor and retains its fresh milkiness. It is best when eaten within 24 hrs and is considered past its prime after 48 hrs.</p>
                 <h5>Pairs well with: </h5>
                 <NavLink to='/wine?type=Tocai%20Friulano'> Tocai Friulano </NavLink>
               </div>
