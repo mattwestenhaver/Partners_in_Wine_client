@@ -3,6 +3,8 @@ import { Grid, Segment, Button, Form } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 
+import List from './List.js'
+
 class Wine extends React.Component {
 
   constructor(props) {
@@ -20,6 +22,10 @@ class Wine extends React.Component {
     })
       .then((response) => {
         console.log(response)
+        this.setState({
+          wines: response.data.wines
+        })
+        console.log('wine',this.state.wines)
       })
   }
 
@@ -40,6 +46,7 @@ class Wine extends React.Component {
 
 
   render(){
+
     const
       currentUser = this.props.currentUser
 
@@ -48,17 +55,17 @@ class Wine extends React.Component {
       <h1>Wine Suggestions</h1>
         <div className='wineBox'>
           <Grid>
-            <Grid.Column width={11}>
+            <Grid.Column width={9}>
               <Segment>
-                <div className='cheeseBox'>
+                <div>
                   <h3>List of Wines</h3>
-                  <p>Here are all the wines.</p>
+                  <List items={this.state.wines} />
                   <NavLink to='/'> Go back to home  </NavLink>
                 </div>
               </Segment>
             </Grid.Column>
 
-            <Grid.Column width={3}>
+            <Grid.Column width={4}>
               <Segment>
                 <div className='cheeseBox'>
                   <h3> Tailor your Wine Search: </h3>
@@ -67,7 +74,10 @@ class Wine extends React.Component {
                         <input ref="varietal" defaultValue={this.props.type} />
                       </Form.Field>
                       <Form.Field>
-                        { currentUser ? <input ref="zipcode" defaultValue={currentUser.zipcode} /> : <input ref="zipcode" defaultValue={90404} /> }
+                        { currentUser
+                          ? <input ref="zipcode" defaultValue={currentUser.zipcode} />
+                          : <input ref="zipcode" defaultValue={90404} />
+                        }
                       </Form.Field>
                       <Form.Field>
                         <input ref="price" defaultValue='30' />
