@@ -70,6 +70,7 @@ class Wine extends React.Component {
                 <div className='cheeseBox'>
                   <h3> Tailor your Wine Search: </h3>
                     <Form onSubmit={this.handleFormSubmit.bind(this)}>
+                      <h4>Type:</h4>
                       <Form.Field>
                         <input ref="varietal" defaultValue={this.props.type} />
                       </Form.Field>
