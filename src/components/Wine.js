@@ -3,8 +3,6 @@ import { Grid, Segment, Button, Form } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 
-const apiKey = process.env.API_KEY
-
 class Wine extends React.Component {
 
   constructor(props) {
@@ -22,7 +20,6 @@ class Wine extends React.Component {
     })
       .then((response) => {
         console.log(response)
-
       })
   }
 
@@ -44,9 +41,7 @@ class Wine extends React.Component {
 
   render(){
     const
-      currentUser = this.props.currentUser,
-      varietal = this.props.varietal
-
+      currentUser = this.props.currentUser
 
     return (
       <div>
@@ -75,7 +70,7 @@ class Wine extends React.Component {
                         { currentUser ? <input ref="zipcode" defaultValue={currentUser.zipcode} /> : <input ref="zipcode" defaultValue={90404} /> }
                       </Form.Field>
                       <Form.Field>
-                        <input ref="price" defaultValue='$$' />
+                        <input ref="price" defaultValue='30' />
                       </Form.Field>
                       <Button color='olive' type='submit' className='filterButton'>Update Search</Button>
                     </Form>

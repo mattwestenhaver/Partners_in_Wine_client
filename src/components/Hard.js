@@ -23,9 +23,7 @@ const Hard = (props) => {
                 <img src={gouda} alt='Gouda' />
                 <p>A Dutch yellow cheese made from cow's milk. It is named after the city of Gouda in the Netherlands. It has a "lovely fruity tang" with a "sweet finish", that may take on "an almost butterscotch flavor" if aged over two years.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Merlot </NavLink><br />
-                <NavLink to='/'> Grenache </NavLink><br />
-                <NavLink to='/'> Barbera </NavLink>
+                <NavLink to='/wine?type=Merlot'> Merlot </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -36,7 +34,7 @@ const Hard = (props) => {
                 <img src={cheddar} alt='Cheddar' />
                 <p>A relatively hard, off-white, natural cheese. Originating in the British village of Cheddar in Somerset, cheeses of this style are produced beyond this region and in several countries around the world.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Cabernet Sauvignon </NavLink>
+                <NavLink to='/wine?type=Cabernet%20Sauvignon'> Cabernet Sauvignon </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -47,7 +45,7 @@ const Hard = (props) => {
                 <img src={parmesan} alt='Parmesan' />
                 <p>A hard, granular cheese. It has a sharp, complex fruity/nutty taste with a strong savory flavor and a slightly gritty texture. Inferior versions can impart a bitter taste.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Chianti </NavLink>
+                <NavLink to='/wine?type=Chianti'> Chianti </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -58,7 +56,7 @@ const Hard = (props) => {
                 <img src={double_gloucester} alt='Double Gloucester' />
                 <p>A traditional cheese made in Gloucestershire, England, since the 16th century, at one time made only with the milk of the once nearly extinct Gloucester cattle. It is allowed to age for longer periods than Single, and has a stronger and more savoury flavour.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Zinfandel </NavLink>
+                <NavLink to='/wine?type=Zinfandel'> Zinfandel </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -71,7 +69,7 @@ const Hard = (props) => {
                 <img src={pecorino} alt='Pecorino' />
                 <p>A family of hard Italian cheeses made from ewe's milk. The more matured cheeses are harder but crumbly in texture and have buttery and nutty flavours. The other two types have a softer texture and milder cream and milk tastes.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Valpolicella </NavLink>
+                <NavLink to='/wine?type=Valpolicella'> Valpolicella </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -82,7 +80,7 @@ const Hard = (props) => {
                 <img src={gruyere} alt='Gruyere' />
                 <p>A hard yellow cheese, named after the town of Gruyères in Switzerland, and originated in the cantons of Fribourg, Vaud, Neuchâtel, Jura, and Berne. It is often described as creamy and nutty when young, becoming more assertive, earthy, and complex as it matures.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Sauvignon Blanc </NavLink>
+                <NavLink to='/wine?type=Sauvignon%20Blanc'> Sauvignon Blanc </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -93,7 +91,7 @@ const Hard = (props) => {
                 <img src={fontina} alt='Fontina' />
                 <p>An Italian cow's milk cheese. The best cheese is obtained during the summer when the cows are moved to high altitudes and fed only with rich grass to give it a distinctive aroma. It is noted for its earthy, mushroomy, and woody taste, and pairs well with roast meats and truffles. It has a rich and creamy flavor which gets nuttier with aging.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Bardolino </NavLink>
+                <NavLink to='/wine?type=Bardolino'> Bardolino </NavLink>
               </div>
             </Segment>
           </Grid.Column>
