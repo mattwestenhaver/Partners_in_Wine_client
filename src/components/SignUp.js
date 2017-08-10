@@ -20,10 +20,7 @@ class SignUp extends React.Component {
     console.log(formData)
 
     auth.signUp(formData).then(success => {
-      if (success) {
-        this.setState({shouldRedirect: true})
-      }
-      console.log(success)
+
     })
   }
 
