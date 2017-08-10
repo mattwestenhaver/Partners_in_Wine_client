@@ -80,7 +80,7 @@ h5 {
 .wineBox {
   width: vw;
   margin: 0 auto;
-  padding-left: 120px;
+  padding-left: 230px;
   text-align: center;
 }
 
@@ -113,4 +113,45 @@ h5 {
 .cheesePic {
   font-size: 30px;
   line-height: 12px;
+}
+
+.wineList {
+  width: 500px;
+}
+
+li {
+  clear: both;
+}
+
+.bottlePic {
+  float: left;
+  /*border: 1px solid red;*/
+}
+
+.bottlePic img {
+  max-height: 100px;
+  margin-bottom: 15px;
+}
+
+.bottleInfo {
+  float: left;
+  /*border: 1px solid lime;*/
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.wineWrap {
+  clear: both;
+  /*border: 1px solid lightblue;*/
+}
+
+hr {
+  clear: both;
+}
+
+ul {
+  padding-left: 0;
 }
