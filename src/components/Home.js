@@ -11,7 +11,7 @@ const Home = (props) => {
   return (
     <div className='cheeseWrapper'>
       <h2 className="App-intro">
-        Choose your cheese...
+        Choose your cheese type...
       </h2>
 
       <Grid columns='equal'>

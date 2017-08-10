@@ -46,7 +46,11 @@ class App extends Component {
           <Route path='/hard' component={Hard} />
           <Route path='/blue' component={Blue} />
           <Route path='/bloomy' component={Bloomy} />
-          <Route path='/wine' render={ ()=> <Wine currentUser={this.state.currentUser} /> } />
+          <Route path='/wine' render={(props)=> {
+              const queryString = props.location.search
+              const query = decodeURIComponent(queryString.slice(queryString.indexOf('=') + 1))
+              return <Wine currentUser={this.state.currentUser} type={query} />
+          }} />
           <Route path='/signup' component={SignUp} />
           <Route path='/login' render={() => (
             <LogIn onLogIn={this.setCurrentUser.bind(this)} />

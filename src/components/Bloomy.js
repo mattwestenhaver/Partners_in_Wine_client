@@ -21,7 +21,7 @@ const Bloomy = (props) => {
                 <img src={camembert} alt='Camembert' />
                 <p>A soft, creamy, surface-ripened cow's milk cheese. It was first made in the late 18th century at Camembert, Normandy, in northern France.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/wine'> Champagne </NavLink>
+                <NavLink to='/wine?type=Champagne'> Champagne </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -33,7 +33,7 @@ const Bloomy = (props) => {
                 <img src={brie} alt='Brie' />
                 <p>A soft cow's-milk cheese named after Brie, the French region from which it originated. The rind is typically eaten, with its flavor depending largely upon the ingredients used and its manufacturing environment.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/wine'> Chardonnay </NavLink>
+                <NavLink to='/wine?type=Chardonnay'> Chardonnay </NavLink>
               </div>
             </Segment>
           </Grid.Column>
