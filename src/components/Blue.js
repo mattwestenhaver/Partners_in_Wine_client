@@ -20,7 +20,7 @@ const Blue = (props) => {
                 <img src={gorgonzola} alt='Gorgonzola' />
                 <p>A veined Italian blue cheese, made from unskimmed cow's milk. It can be buttery or firm, crumbly and quite salty, with a "bite" from its blue veining.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Port </NavLink>
+                <NavLink to='/wine?type=Port'> Port </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -31,7 +31,7 @@ const Blue = (props) => {
                 <img src={stilton} alt='Stilton' />
                 <p>An English cheese, produced in two varieties: Blue, known for its characteristic strong smell and taste, and the lesser-known White.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Sauternes </NavLink>
+                <NavLink to='/wine?type=Sauternes'> Sauternes </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -42,7 +42,7 @@ const Blue = (props) => {
                 <img src={blue} alt='Blue' />
                 <p>Blue cheeses are typically aged in a temperature-controlled environment such as a cave. The characteristic flavor of blue cheeses tends to be sharp and salty.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Riesling </NavLink>
+                <NavLink to='/wine?type=Riesling'> Riesling </NavLink>
               </div>
             </Segment>
           </Grid.Column>
@@ -53,7 +53,7 @@ const Blue = (props) => {
                 <img src={cambozola} alt='Cambozola' />
                 <p>A cow's milk cheese that is a combination in style of a French soft-ripened triple cream cheese and Italian Gorgonzola. Cambozola is considerably milder than Gorgonzola piccante and features a smooth, creamy texture with a subdued blue flavour.</p>
                 <h5>Pairs well with: </h5>
-                <NavLink to='/'> Eiswein </NavLink>
+                <NavLink to='/wine?type=Eiswein'> Eiswein </NavLink>
               </div>
             </Segment>
           </Grid.Column>
