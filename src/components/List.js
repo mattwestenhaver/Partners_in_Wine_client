@@ -14,7 +14,7 @@ const List = (props) => {
                 </div>
 
                 <div className='bottleInfo'>
-                  <a href={item.link}> {item.name} </a>
+                  <a href={item.link}> {item.name.slice(0, 46)} </a>
                   <p> {item.region.slice(0, (item.region.indexOf('>')))} </p>
                   <p> Price: ${item.price} </p>
                 </div>
