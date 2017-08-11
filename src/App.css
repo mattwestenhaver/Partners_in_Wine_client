@@ -53,12 +53,12 @@ div, h1, h3, h4, h5 {
 }
 
 a {
-  color: dodgerblue;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: black;
 }
 
 .cheeseTitle {
