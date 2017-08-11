@@ -41,6 +41,12 @@ div, h1, h3, h4, h5 {
   font-size: large;
 }
 
+.cheeseTransition {
+  font-size: large;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -56,7 +62,7 @@ a:hover {
 }
 
 .cheeseTitle {
-  margin-bottom: 27px;
+  margin-bottom: 10px;
 }
 
 h5 {

@@ -13,6 +13,7 @@ const Fresh = (props) => {
   return (
     <div>
       <h2 className="cheeseTitle"> Fresh Cheeses </h2>
+      <h2 className="cheeseTransition"> Find your cheese and select its recommended wine pairing to shop for wines near you... </h2>
       <div className='cheeseWrapper'>
         <Grid columns='equal'>
           <Grid.Column>
