@@ -1,6 +1,6 @@
 # Partners In Wine
 ![Imgur](http://i.imgur.com/O4OpMY4.png?1)
-#####Created by Matthew Westenhaver and David Noble
+##### Created by Matthew Westenhaver and David Noble
 ---
 Visit Partners In Wine [here](https://partnersinwine.herokuapp.com)!
 
