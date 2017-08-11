@@ -170,3 +170,7 @@ ul {
 .buttonGroup {
   padding-left: 10px;
 }
+
+.blue a {
+  color: dodgerblue!important;
+}

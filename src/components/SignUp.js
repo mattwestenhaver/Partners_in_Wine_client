@@ -49,7 +49,7 @@ class SignUp extends React.Component {
             </Form.Field>
             <Button color='violet' type='submit' className='signUpButton'>Create Account</Button>
           </Form>
-          <h4>Already have an account? <a href='/login'>Log In</a>!</h4>
+          <h4>Already have an account? <span className='blue'><a href='/login'>Log In</a></span>!</h4>
         </div>
       )
     )

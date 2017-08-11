@@ -42,7 +42,7 @@ class LogIn extends React.Component {
             </Form.Field>
             <Button color='violet' type='submit' className='logInButton'>Log In</Button>
           </Form>
-          <h4>Don't have an account? <a href='/signup'>Sign Up</a>!</h4>
+          <h4>Don't have an account? <span className='blue'><a href='/signup'>Sign Up</a></span>!</h4>
         </div>
       )
     )
